@@ -82,7 +82,7 @@ map.on("click", "top10-hosts", function (e) {
     .setLngLat(e.lngLat)
     .setHTML(
       "<b>" + uniName + "<br>" + "</b>" + "Last Gameday was on " + latestGameday +
-      "<img src=\'" + imagePath + "\" />"
+      "<img src=\"" + imagePath + "\" />"
     .addTo(map);
 });
 
